@@ -57,7 +57,7 @@ let randomNumberPC= randomNum();
 console.log(randomNumberPC);
 
 let sumNumbers = randomNumberPC + userNumber;
-console.log(sumNumbers);
+console.log('la somma è:' + "" + `${sumNumbers}` );
 
 let result = evenOrNot(sumNumbers);
 if (result === userChoise){
